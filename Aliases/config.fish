@@ -1,7 +1,8 @@
-bind \t bind \t 'accept-autosuggestion'
+bind \t 'accept-autosuggestion' #to accept autosuggestion by pressing tab
 #fish theme
 set -g theme_display_git_default_branch yes
 set -g theme_color_scheme zenburn
+
 
 alias fishconfig “open -a 'Visual Studio Code' ~/.config/fish/config.fish”
 alias sourcefish 'source ~/.config/fish/config.fish'
